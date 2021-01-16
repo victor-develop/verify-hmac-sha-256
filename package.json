@@ -1,5 +1,5 @@
 {
-  "name": "verify-hmac-sha-256",
+  "name": "verify-hmac-sha",
   "version": "1.0.0",
   "description": "Verify an hmac signature.",
   "main": "src/index.js",
