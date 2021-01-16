@@ -1,5 +1,5 @@
 # verify-hmac-256
-Simple package to verify HMAC with SHA-256 signature.
+Simple package to verify HMAC with SHA-256 signature. It is just using the native crypto Node.js module like you see in the official doc. I wrap them all up so that you can do this with fewer lines of code.
 
 ## How to use
 At most of the time you will just need to use the `verify()` method which returns a true/false
