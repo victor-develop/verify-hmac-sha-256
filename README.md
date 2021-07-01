@@ -10,11 +10,15 @@ const secret = 'test-secret'
 const payload = JSON.stringify({ example: 123 })
 const signature = '0076b0ee1c6ea46ec31c8076b40447097497ab311866dd207fa7708e7a2bcc43'
 console.log(
-  verifyHmac256.verify({
+  // do verifyHmac256.encodeInBase64.verify in case of Base64 digest
+  // verifyHmac256.encodeIn('base64') also works. Just pass in the encoding you prefer
+  // I believe in most cases you will use either encodeInHex or encodeInBase64
+  verifyHmac256.encodeInHex.verify({
     signature,
     secret,
     payload
   })
 ) // true
 ```
+
 
