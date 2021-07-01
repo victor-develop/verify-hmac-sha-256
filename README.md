@@ -1,4 +1,6 @@
 # verify-hmac-256
+[![codecov](https://codecov.io/gh/victor-develop/verify-hmac-sha-256/branch/master/graph/badge.svg?token=8CHV388RXU)](https://codecov.io/gh/victor-develop/verify-hmac-sha-256)
+
 Simple package to verify HMAC with SHA-256 signature. It is just using the native crypto Node.js module like you see in the official doc. I wrap them all up so that you can do this with fewer lines of code.
 
 ## How to use
