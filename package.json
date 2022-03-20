@@ -31,6 +31,6 @@
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "4.3.1",
     "husky": "7.0.4",
-    "jest": "26.6.3"
+    "jest": "27.5.1"
   }
 }
