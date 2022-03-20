@@ -32,5 +32,8 @@
     "eslint-plugin-promise": "6.0.0",
     "husky": "7.0.4",
     "jest": "27.5.1"
+  },
+  "volta": {
+    "node": "14.19.1"
   }
 }
