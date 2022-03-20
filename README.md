@@ -1,4 +1,4 @@
-# verify-hmac-256
+# verify-hmac-sha
 [![codecov](https://codecov.io/gh/victor-develop/verify-hmac-sha-256/branch/master/graph/badge.svg?token=8CHV388RXU)](https://codecov.io/gh/victor-develop/verify-hmac-sha-256)
 ![CI](https://github.com/victor-develop/verify-hmac-sha-256/actions/workflows/node.js.yml/badge.svg)
 
