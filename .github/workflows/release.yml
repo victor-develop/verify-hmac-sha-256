@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@2d1c1198e79c30cca5c3957b1e3b65ce95b5356e
       # Setup .npmrc file to publish to npm
-      - uses: actions/setup-node@9ced9a43a244f3ac94f13bfd896db8c8f30da67a
+      - uses: actions/setup-node@76d3665dc084409ba9e6c467009338cf86e9dd5f
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
