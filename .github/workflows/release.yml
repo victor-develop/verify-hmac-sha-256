@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@add3486cc3b55d4a5e11c8045058cef96538edc7
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
       # Setup .npmrc file to publish to npm
       - uses: actions/setup-node@76d3665dc084409ba9e6c467009338cf86e9dd5f
         with:
